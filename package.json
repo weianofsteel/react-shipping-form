@@ -1,0 +1,44 @@
+{
+  "name": "react-address-picker",
+  "homepage": "https://weianofsteel.github.io/react-address-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d",
+    "salie": "webpack",
+    "watch": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-pug": "^4.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "run-sequence": "^2.2.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@material/react-button": "^0.15.0",
+    "@material/react-card": "^0.15.0",
+    "@material/react-checkbox": "^0.15.0",
+    "@material/react-layout-grid": "^0.15.0",
+    "@material/react-material-icon": "^0.15.0",
+    "@material/react-radio": "^0.15.0",
+    "@material/react-select": "^0.15.0",
+    "@material/react-text-field": "^0.15.0",
+    "@material/react-typography": "^0.15.0",
+    "gh-pages": "^2.2.0"
+  }
+}
