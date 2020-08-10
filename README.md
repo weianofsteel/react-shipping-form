@@ -10,7 +10,7 @@ My second react project,i set it up without using create-react-app. I used Webpa
 
 ## What i learned
 
-- [x] Webpa
+- [x] Webpack
 
 - [x] Gulp
 
